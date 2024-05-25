@@ -20,17 +20,3 @@ git checkout main
 git commit
 git checkout bugFix
 git rebase main
-
-# ============= Rozkręcenie ==============
-#zad 2.1
-git checkout C4
-
-#zad 2.2
-git checkout C3
-
-#zad 2.3
-git branch -f main C6
-git branch -f bugFix HEAD~2
-git checkout C1
-
-#zad 2.4
